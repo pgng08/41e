@@ -25,13 +25,13 @@ vsc visual studio code
 10. Après quelques commits on peut pousser vers notre dépôt github
 11. `git push 41e-exercice «notre branche»`
 
-#### Les étapes de développement du projet
+#### Les étapes de développement du projet (10 points)
 
-1. Création d'un fichier .md décrivant les principales commandes utilisée
-2. Récupération d'une structure HTML/Sass produisant un site mono-page
-3. Faire évoluer la structure de site mono-page
-4. Produire une github-page
-5. Appliquer les commandes suivantes
+1. Création d'un fichier .md décrivant les principales commandes utilisée (1 point)
+2. Récupération d'une structure HTML/Sass produisant un site mono-page (1 point)
+3. Faire évoluer la structure de site mono-page (1 point)
+4. Produire une github-page (1 point)
+5. Appliquer les commandes suivantes (2 points)
    - remote add
    - add
    - commit
@@ -43,5 +43,5 @@ vsc visual studio code
    - pull
    - branch
    - checkout
-6. Utilisation des branches pour gérer les différentes versions du dépôt
-7. En équipe de deux faire évoluer le projet du site mono-page
+6. Utilisation des branches pour gérer les différentes versions du dépôt (3 points)
+7. En équipe de deux faire évoluer le projet du site mono-page (3 points)

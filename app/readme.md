@@ -1,6 +1,6 @@
 # Git, Github et Github-page
 
-### 41E - Planification et gestion de projets Web
+### 41e - Planification et gestion de projets Web
 
 ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github logo")
 
@@ -12,7 +12,7 @@
 
 **_GitHub-pages_** Github permet de publier un site Web constitué d'une seule page. Il suffit que le **_dépôt_** contenant le site soit **_publique_**. Une fois que le dépôt est créé on peut créer la Github-page en accédant au « `setting` » du dépôt et à « `Page`».
 
-**_l'adresse de la github-page final_** [Github page TP2](https://eddytuto.github.io/1w1/#accueil "Github page TP2")
+**_l'adresse de la github-page final_** [Github page TP2](https://eddytuto.github.io/41e/#accueil "Github page TP2")
 
 ## Création d'une Github-page :
 
@@ -105,7 +105,7 @@ Permet d'identifier une nouvelle version du projet
 ## Pour pousser votre dépôt local vers votre dépôt Github
 
 1. Pousser le dépôt local vers votre dépôt de Github dans la branche « main »:
-   > « `git push 1w1 main` » 1w1: l'alias de votre dépôt github, main: la branche
+   > « `git push 41e main` » 41e: l'alias de votre dépôt github, main: la branche
 
 ## Pour créer une Github page
 
