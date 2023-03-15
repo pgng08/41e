@@ -6,6 +6,8 @@
 
 #### Les étapes à suivre
 
+vsc visual studio code
+
 1. Récupérer localement sur VSC un dépôt sur Github
 2. Créer une branche qui portera votre nom
 3. Faire évoluer cette branche
@@ -20,4 +22,4 @@
    2. `git commit -m "c3 description des modifications"`
    3. `git log --oneline`
 9. Après quelques commits on peut pousser vers notre dépôt github
-   1. `git push 41e-exercice «notre branche»`
+10. `git push 41e-exercice «notre branche»`
