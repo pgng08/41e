@@ -1,0 +1,33 @@
+/* --- ENTETE --- */
+.entete {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+/* --- LOGO --- */
+.logo {
+  outline: 1px dotted #0f0;
+}
+
+/* --- MENU RECHERCHE --- */
+.menu__recherche {
+  outline: 1px dotted #aaa;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  @media screen and (min-width: 900px) {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* --- MENU --- */
+.menu {
+  display: flex;
+  a {
+    display: block;
+    padding: 2px 5px;
+  }
+}
