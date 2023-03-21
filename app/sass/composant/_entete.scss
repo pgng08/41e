@@ -1,0 +1,30 @@
+.entete {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 10vh;
+  outline: 1px dotted red;
+  margin: 0;
+  padding: 0;
+  .logo {
+    flex: 0 0 150px;
+    padding: 0;
+    margin: 0;
+  }
+}
+.menu__recherche {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu a {
+  display: block;
+  flex: 0 1 100px;
+}
