@@ -19,17 +19,6 @@ section {
   min-height: 100vh;
 }
 
-.menu {
-  position: fixed;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-.menu a {
-  display: block;
-  flex: 0 1 100px;
-}
-
 #accueil {
   background-color: aquamarine;
 }
