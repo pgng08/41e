@@ -25,7 +25,7 @@
   - `git branch -m nom-nouvelle-branche`
 
 - Pour creer une nouvelle branche
-- `git branch nouvelle-branche`
+  - `git branch nouvelle-branche`
 
 - Pour changer de branche
   - `git checkout nom-de-la-branche`
