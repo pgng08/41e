@@ -32,4 +32,4 @@
   - `git checkout nom-de-la-branche`
   - On ne peut pas changer de branche si la branche courante n'a pas été «commit» valider 
   - `git checkout id-du-commit`   
-  - 
+  - `git checkout etiquette du commit`
