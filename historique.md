@@ -46,3 +46,4 @@
   - `git remote add 41e https://github.com/pgng08/41e/`
   - `git remote -v` // permet de voir la liste des alias du serveur distant
   - `git push 41e main` // pousser mon dernier commit vers la branche main du depot distant 41e
+  - `git pull 41e main` // recuperer la dernière version du depot distant 41e
