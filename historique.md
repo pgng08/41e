@@ -22,11 +22,14 @@
 
 ### Naviguer dans les branches
 - Pour changer le nom d'une branche
-  - `git branch -m nom-nouvelle-branche`
+  - `git branch -m nom-branche`
+  - `git branch -m main` // change lo nom de la branche courante pour main
 
 - Pour creer une nouvelle branche
   - `git branch nouvelle-branche`
 
 - Pour changer de branche
   - `git checkout nom-de-la-branche`
-  - On ne peut pas changer de branche si la branche courante n'a pas été «commit» valider    
+  - On ne peut pas changer de branche si la branche courante n'a pas été «commit» valider 
+  - `git checkout id-du-commit`   
+  - 
