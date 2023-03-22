@@ -34,13 +34,15 @@
   - `git checkout id-du-commit`   
   - `git checkout etiquette du commit`
 
----
-### Serveur distant
-- Pour definit un alias identifiant le serveur distant
-- `git remote add 41e https://github.com/pgng08/41e/`
-- `git remote -v` // permet de voir la liste des alias du serveur distant
-- `git push 41e main` // pousser mon dernier commit vers la branche main du depot distant 41e
 - Pour creer une etiquete (tag)
   - `git tag v1.0.0` // creation de l'etiquette v1.0.0
   - `git tag` // permet d'afficher l'ensemble des tag
   - `git checkout v1.0.0` // pour se déplacer dans le commit v1.0.0 (deplace le pointeur HEAD)
+
+---
+
+### Serveur distant
+  - Pour definit un alias identifiant le serveur distant
+  - `git remote add 41e https://github.com/pgng08/41e/`
+  - `git remote -v` // permet de voir la liste des alias du serveur distant
+  - `git push 41e main` // pousser mon dernier commit vers la branche main du depot distant 41e
