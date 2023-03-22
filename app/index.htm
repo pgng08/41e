@@ -13,7 +13,9 @@
   <!-- //////////////////////////////////////  entete -->
   <section class="entete">
     <img class="logo" src="img/logo_eddy_tuto.png" alt="logo" />
+
     <div class="menu__recherche">
+      <input type="checkbox" name="" id="chkBurger" />
       <nav class="menu">
         <a href="#accueil">Accueil</a>
         <a href="#inscription">Inscription</a>
@@ -22,21 +24,28 @@
         <a href="#video">Vidéo</a>
         <a href="#pied-page">Pied de page</a>
       </nav>
-      <form class="recherche">
-        <label for="txtRecherche">
-          <input type="text" id="txtRecherche" />
-          <img src="https://s2.svgbox.net/materialui.svg?ic=search&color=000" width="32" height="32" />
+
+      <div class="recherche__burger">
+
+        <form class="recherche">
+          <label for="txtRecherche">
+            <input type="text" id="txtRecherche" />
+            <img src="https://s2.svgbox.net/materialui.svg?ic=search&color=000" width="32" height="32" />
+          </label>
+        </form>
+        <label class="burger" for="chkBurger">
+          <img src="https://s2.svgbox.net/hero-solid.svg?ic=menu&color=000" width="32" height="32" />
         </label>
-      </form>
-      <label class="burger" for="chkBurger">
-        <img src="https://s2.svgbox.net/hero-solid.svg?ic=menu&color=000" width="32" height="32" />
-      </label>
-      <input type="checkbox" name="" id="chkBurger" />
+      </div>
     </div>
+    <!-- fin menu__recherche -->
+
   </section>
   <!-- //////////////////////////////////////  Accueil -->
   <section id="accueil">
     <h1>Accueil</h1>
+    <h4>Bienvenue sur notre site</h4>
+    <h3>Pablo Gutenberg et Feng Chen</h3>
   </section>
   <!-- //////////////////////////////////////  Inscription -->
   <section id="inscription">
@@ -90,10 +99,14 @@
   <!-- ////////////////////////////////////////  video -->
   <section id="video">
     <h1>Video</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pBy1zgt0XPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </section>
   <!-- ////////////////////////////////////////  Pied de page -->
   <section id="pied-page">
     <h1>Pied de page</h1>
+    <section>
+      <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et reiciendis error eius ex, quam corrupti, quo nostrum deserunt eveniet officiis excepturi id magnam ullam commodi, aliquid libero sunt velit adipisci? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad animi, labore iste voluptates repudiandae cupiditate aliquid eius accusamus ipsa, voluptatibus incidunt! Adipisci placeat aliquam est tempore magni eligendi nostrum architecto.</h4>
+    </section>
   </section>
 </body>
 
