@@ -17,11 +17,13 @@ section {
 }
 
 #accueil {
-  background-color: aquamarine;
+  background-color: pink;
+  color: yellow;
 }
 #inscription {
   background-color: rgb(238, 234, 16);
 }
+
 #galerie {
   background-color: rgb(236, 119, 41);
 }
@@ -29,7 +31,10 @@ section {
   background-color: rgb(74, 96, 225);
 }
 #video {
-  background-color: rgb(195, 127, 255);
+  background-color: black;
+  h1 {
+    color: gray;
+  }
 }
 #pied-page {
   background-color: rgb(27, 176, 214);

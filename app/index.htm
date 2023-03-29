@@ -24,15 +24,19 @@
         <a href="#video">Vidéo</a>
         <a href="#pied-page">Pied de page</a>
       </nav>
-      <form class="recherche">
-        <label for="txtRecherche">
-          <input type="text" id="txtRecherche" />
-          <img src="https://s2.svgbox.net/materialui.svg?ic=search&color=000" width="32" height="32" />
+
+      <div class="recherche__burger">
+
+        <form class="recherche">
+          <label for="txtRecherche">
+            <input type="text" id="txtRecherche" />
+            <img src="https://s2.svgbox.net/materialui.svg?ic=search&color=000" width="32" height="32" />
+          </label>
+        </form>
+        <label class="burger" for="chkBurger">
+          <img src="https://s2.svgbox.net/hero-solid.svg?ic=menu&color=000" width="32" height="32" />
         </label>
-      </form>
-      <label class="burger" for="chkBurger">
-        <img src="https://s2.svgbox.net/hero-solid.svg?ic=menu&color=000" width="32" height="32" />
-      </label>
+      </div>
     </div>
     <!-- fin menu__recherche -->
 
@@ -40,15 +44,29 @@
   <!-- //////////////////////////////////////  Accueil -->
   <section id="accueil">
     <h1>Accueil</h1>
-    <section>
-      <h4>Bonjour, Bienvenue sur notre site </h4>
-      <h3>Pablo Gutenberg et Feng Chen</h3>
-
-    </section>
+    <h4>Bienvenue sur notre site</h4>
+    <h3>Pablo Gutenberg et Feng Chen</h3>
+    <div class="mustache">
+      <img src="img/mustachejs.gif" alt="mustache" />
+    </div>
   </section>
   <!-- //////////////////////////////////////  Inscription -->
   <section id="inscription">
     <h1>Inscription</h1>
+
+    <form>
+      <div class="bgImage">
+        <div class="formWrap">
+          <p>New User Sign-up</p>
+          <input type="text" name="firstname" placeholder="firstname" />
+          <input type="text" name="lastname" placeholder="lastname" />
+          <input type="email" name="email" placeholder="email" />
+          <input type="text" name="username" placeholder="username" />
+          <input type="password" name="password" placeholder="password" />
+          <input type="submit" id="submit" class="submit" value="Submit" />
+        </div>
+      </div>
+    </form>
   </section>
   <!-- //////////////////////////////////////  Galerie -->
   <section id="galerie">
@@ -84,10 +102,21 @@
   <!-- ////////////////////////////////////////  video -->
   <section id="video">
     <h1>Video</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pBy1zgt0XPc" title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
   </section>
   <!-- ////////////////////////////////////////  Pied de page -->
   <section id="pied-page">
     <h1>Pied de page</h1>
+    <section>
+      <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et reiciendis error eius ex, quam corrupti, quo
+        nostrum deserunt eveniet officiis excepturi id magnam ullam commodi, aliquid libero sunt velit adipisci? Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Ad animi, labore iste voluptates repudiandae cupiditate
+        aliquid eius accusamus ipsa, voluptatibus incidunt! Adipisci placeat aliquam est tempore magni eligendi nostrum
+        architecto.</h4>
+    </section>
   </section>
 </body>
 
