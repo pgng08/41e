@@ -29,7 +29,33 @@ section {
 }
 #tableau {
   background-color: rgb(74, 96, 225);
+
+  table {
+    width: 500px;
+    border-collapse: collapse;
+    margin: 50px auto;
+  }
+
+  /* Zebra striping */
+  tr:nth-of-type(odd) {
+    background: #eee;
+  }
+
+  th {
+    background: #3498db;
+    color: white;
+    font-weight: bold;
+  }
+
+  td,
+  th {
+    padding: 10px;
+    border: 2px solid #ccc;
+    text-align: left;
+    font-size: 18px;
+  }
 }
+
 #video {
   background-color: black;
   h1 {
