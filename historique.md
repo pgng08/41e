@@ -47,3 +47,14 @@
   - `git remote -v` // permet de voir la liste des alias du serveur distant
   - `git push 41e main` // pousser mon dernier commit vers la branche main du depot distant 41e
   - `git pull 41e main` // recuperer la dernière version du depot distant 41e
+---    
+## Pour créer une étiquette
+- `git tag v1.0.0` // Création de l'étiquette v1.0.0
+- `git tag` // permet d'afficher l'ensemble des tag (étiquette)   
+- `git checkout v1.0.0` // pour se déplacer dans le commit v1.0.0 (déplace le pointeur «head»)
+
+## pour changer l'éditeur par défaut pour vsc
+- `git config --global core.editor "code --wait"`
+
+## Modifier le dernier message du commit
+- `git commit --amend` 
