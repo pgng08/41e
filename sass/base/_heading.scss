@@ -1,0 +1,136 @@
+/* 
+Pour configurer les trois paramètre de la propriété clamp()
+https://clamp.font-size.app 
+*/
+
+h1 {
+  font-size: clamp(2rem, -0.75rem + 4.8vw, 3.75rem);
+}
+h2 {
+  font-size: clamp(1rem, -0.3125rem + 3vw, 2.5rem);
+}
+h3 {
+  font-size: clamp(1rem, -0.25rem + 2.6vw, 2.1875rem);
+  margin: 0.5rem 0;
+}
+h4 {
+  font-size: clamp(0.8rem, -0.1875rem + 2.2vw, 1.875rem);
+  margin: 0.5rem 0;
+}
+h5 {
+  font-size: clamp(0.8rem, -0.0313rem + 1.7vw, 1.5625rem);
+  margin: 0.5rem 0;
+}
+h6 {
+  font-size: clamp(0.8rem, 0.125rem + 1.2vw, 1.25rem);
+}
+
+p,
+li {
+  font-size: clamp(0.8rem, 0.125rem + 1.2vw, 1.3rem);
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* font-family: "Slackey", cursive; */
+}
+
+a {
+  text-decoration: none;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a {
+}
+
+p,
+li {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+a, /* la grandeur de la police devrait être hérité */
+code {
+  font-size: inherit;
+}
+code {
+  // padding: 4px;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 2rem;
+}
+
+pre {
+  color: rgb(200 225 251);
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 1rem;
+  white-space: pre-wrap; /* css-3 */
+
+  word-wrap: break-word;
+  overflow: auto;
+}
+pre code {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+hr {
+  border: 0;
+  height: 3px;
+  background: rgb(21, 73, 156);
+  background-image: linear-gradient(
+    to right,
+    rgb(182, 207, 238),
+    rgb(58, 97, 161),
+    rgb(133, 170, 238)
+  );
+}
+
+strong {
+  background-color: #e4461a;
+  font-weight: bold;
+  padding: 0 1rem;
+  color: rgb(37, 55, 71);
+}
+
+/* ----------------------------------------   police de caractères */
+
+h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+h2 {
+  font-family: "Cabin Sketch", cursive;
+}
+h3 {
+  font-family: "Cabin Sketch", cursive;
+}
+h4 {
+  font-family: "IM Fell English", serif;
+}
+h5 {
+  font-family: "Cabin Sketch", cursive;
+}
+h6 {
+  font-family: "Cabin Sketch", cursive;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+}

@@ -1,0 +1,21 @@
+/*
+Theme Name: 2023-4w4
+Theme URI: https://referenced.ca
+Author: Eddy Martin
+Author URI: https://github.com/eddytuto
+*/
+
+/* -------------------------------------------- normalize */
+@import "normalize/normalize";
+@import "normalize/box-sizing";
+
+/* --------------------------------------------- base */
+@import "base/heading";
+/* --------------------------------------------- composant */
+
+/* --------------------------------------------- layout */
+@import "layout/layout";
+
+/* --------------------------------------------- composant*/
+@import "composant/entete";
+
