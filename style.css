@@ -513,6 +513,23 @@ section {
   background-color: rgb(24, 94, 112);
 }
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+  background-color: white;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
 /* --------------------------------------------- composant*/
 /* ---------------------------------.entete */
 .entete {
